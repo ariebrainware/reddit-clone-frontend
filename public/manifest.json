@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Reddit Clone",
+  "name": "reddit: the front page of the internet",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-16x16.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
