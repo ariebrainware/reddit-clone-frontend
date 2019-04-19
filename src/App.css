@@ -13,5 +13,5 @@
 
 .votes {
   cursor: pointer;
-  display: block;
+  max-width: 30px;
 }

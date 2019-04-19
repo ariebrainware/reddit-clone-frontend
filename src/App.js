@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
+import { Container } from 'semantic-ui-react';
 
 import Header from './component/Header';
-import List from './component/List';
+import ListPage from './pages/ListPage'
+
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
         <div className="App-header"> <Header>Reddit Clone</Header> </div>
-        <List />
+        <Container>
+          <ListPage />
+        </Container>
       </div>
     );
   }
